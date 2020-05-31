@@ -1,0 +1,134 @@
+body {
+  font-size: 16px;
+  color: #2ECC71;
+  background-color: #34495E;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #E67E22;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.navbar-brand {
+  padding-top: 12px;
+  padding-left: 0px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.9em;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-left: 0px;
+  margin-left: 0px; 
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration:none;
+}
+
+.navbar-default .navbar-toggle {
+    border: 1px solid #61122f;
+}
+
+.icon-bar {
+  border: 1px solid #61122f;
+}
+
+#navbar-menu{
+background-color: white;
+padding:0px;
+}
+
+#navbar-menu ul{
+  margin:0px;
+  border: 2px solid black;
+}
+
+ul li:hover{
+  background-color: #cacaca;
+ 
+}
+
+hr{
+  margin:0px;
+  border: 1px solid black;
+}
+
+h1:hover{
+  color:#2ECC71;
+}
+
+.container-fluid .text-center{
+  font-family: 'Lora', serif;
+  color: #F7DC6F;
+  font-size: 1.9em;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  line-height: .75;
+}
+
+h2{
+    font-family: 'Lora', serif;
+}
+
+
+/**{
+  box-sizing: border-box;
+}*/
+
+#Chicken{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Lora', serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 10px; 
+}
+
+#Beef{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Lora', serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 10px; 
+}
+
+#Sushi{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Lora', serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 10px; 
+}
+
+section{
+  background-color: #CACFD2;
+  border: 1.1px solid black;
+  color:black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.container {
+    padding-right: 27px;
+    margin-right: auto;
+    padding-left: 50px;
+    margin-left: 0px;
+}
